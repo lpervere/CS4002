@@ -1,0 +1,98 @@
+@font-face {
+	font-family:"Sansation Light";
+	src:url('../fonts/Sansation_Light.ttf');
+}
+body {
+	background-color:black;
+}
+header {
+	display:block;
+	margin:auto auto;
+	text-align: center;
+}
+h1 {
+	font-family: "Sansation Light";
+	font-size: 3em;
+	color:#aaa;
+	letter-spacing: 10px;
+	font-weight: lighter;
+}
+#content {
+	display:block;
+	margin: auto auto;
+	text-align: center;
+}
+#projectSpace {
+	width:620px;
+	height:620px;
+	background-color: white;
+	float:left;
+}
+#info {
+	float:left;
+	color:#666;
+	font-size: 2em;
+	font-family: "Sansation Light";
+	padding-left: 10px;
+	font-weight:bold;
+}
+p.genCounter {
+	padding: 0px;
+	margin: 0px;
+	font-size:3em;
+}
+input {
+	height:30px;
+	text-align: center;
+	background-color: gray;
+	border:1px solid gray;
+}
+button {
+	height:34px;
+	text-align: center;
+	background-color: gray;
+	border:1px solid gray;
+}
+input:hover {
+	background-color: white;
+}
+input:focus {
+	outline:0;
+}
+table {
+	border-collapse: collapse;
+}
+td {
+	border:1px solid black;
+}
+#demos {
+	display: block;
+	margin: auto auto;
+	overflow: auto;
+	color:white;
+	margin-top: 5px;
+}
+h3 {
+	margin: 0px;
+	padding: 0px;
+	margin-left:10px;
+	font-family: "Sansation Light";
+}
+article {
+	float:left;
+
+}
+pre, code {
+	width:600px;
+	height:250px;
+	color:white;
+	font-size: 1.2em;
+	margin:5px;
+	padding: 5px;
+}
+pre {
+	overflow: hidden;
+}
+pre.js:hover {
+	overflow-y:scroll;
+}

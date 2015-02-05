@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CS4002 - Project 1</title>
+<link rel="stylesheet" type="text/css" href="css/main.css" media="all" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<h1>BioVisualization - Project 1</h1>
+	</header>
+	<section id="content">
+		<table id="projectSpace"></table>
+		<article id="info">
+			Generation: <p class="genCounter">0</p>
+		<form id="projectParams">
+			<input type="text" name="cellNumber" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Number of live cells'" placeholder="Number of live cells" />
+			<button type="button">Generate</button>
+			<button type="button">Play</button>
+			<button type="button">Stop</button>
+		</form>
+		</article>
+	</section>
+
+	<section id="demos"></section>
+</body>
+<script src="js/life.js"></script>
+</html>
