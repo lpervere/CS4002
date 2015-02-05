@@ -13,4 +13,4 @@ In order to start everything:
 3) Press the "Play" button and watch the simulation run.
 4) To stop the simulation at any time, press the "Stop" button.
 
-Note: The simulation will not run if the number of life cells is left blank. The simulation will not stop, unless the button is pressed.
+Note: The simulation will not run if the number of life cells is left blank. The simulation will not stop, unless the "Stop" button is pressed.
